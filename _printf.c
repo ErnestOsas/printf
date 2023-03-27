@@ -1,4 +1,4 @@
 /*
  * File: _printf.c
- * Author: Chukwuka
+ * Author: Chukwuka and Ernest
  */
