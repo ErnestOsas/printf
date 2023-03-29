@@ -46,6 +46,7 @@ int print_char(va_list types, char buffer[], int flags, int width, int precision
 int print_string(va_list types, char buffer[], int flags, int width, int precision, int size);
 int print_percent(va_list types, char buffer[], int flags, int width, int precision, int size);
 int print_int(va_list types, char buffer[],int flags, int width, int precision, int size);
+int print_binary(va_list types, char buffer[], int flags, int width, int precision, int size);
 int get_flags(const char *format, int *i);
 int get_width(const char *format, int *i, va_list list);
 int handle_write_char(char c, char buffer[], int flags, int width, int precision, int size);
