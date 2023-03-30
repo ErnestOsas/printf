@@ -67,5 +67,11 @@ int print_hexa(va_list types, char map_to[], char buffer[], int flags, char flag
 int print_non_printable(va_list types, char buffer[], int flags, int width, int precision, int size);
 int append_hexa_code(char, char[], int);
 int is_printable(char);
+int print_pointer(va_list types, char buffer[], int flags, int width, int precision, int size);
+int write_pointer(char buffer[], int ind, int length, int width, int flags, char padd, char extra_c, int padd_start);
+int print_reverse(va_list types, char buffer[], int flags, int width, int precision, int size);
+int print_rot13string(va_list types, char buffer[], int flags, int width, int precision, int size);
+
+
 
 #endif
